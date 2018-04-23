@@ -1,0 +1,20 @@
+BOS 你好 阿 EOS	B-問候 O 問候
+BOS 明天 天氣 怎樣 EOS	B-時間 B-天氣 O 問天氣
+BOS 幫我 找 大直 附近 的 餐廳 EOS	O O B-地點 O O O 找餐廳
+BOS 市民大道 有 什麼 好吃 的 餐廳 EOS	B-地點 O O O O O 找餐廳
+BOS 你好 阿 EOS	B-問候 O 問候
+BOS 明天 天氣 怎樣 EOS	B-時間 B-天氣 O 問天氣
+BOS 幫我 找 大直 附近 的 餐廳 EOS	O O B-地點 O O O 找餐廳
+BOS 市民大道 有 什麼 好吃 的 餐廳 EOS	B-地點 O O O O O 找餐廳
+BOS 你好 阿 EOS	B-問候 O 問候
+BOS 明天 天氣 怎樣 EOS	B-時間 B-天氣 O 問天氣
+BOS 幫我 找 大直 附近 的 餐廳 EOS	O O B-地點 O O O 找餐廳
+BOS 市民大道 有 什麼 好吃 的 餐廳 EOS	B-地點 O O O O O 找餐廳
+BOS 你好 阿 EOS	B-問候 O 問候
+BOS 明天 天氣 怎樣 EOS	B-時間 B-天氣 O 問天氣
+BOS 幫我 找 大直 附近 的 餐廳 EOS	O O B-地點 O O O 找餐廳
+BOS 市民大道 有 什麼 好吃 的 餐廳 EOS	B-地點 O O O O O 找餐廳
+BOS 你好 阿 EOS	B-問候 O 問候
+BOS 明天 天氣 怎樣 EOS	B-時間 B-天氣 O 問天氣
+BOS 幫我 找 大直 附近 的 餐廳 EOS	O O B-地點 O O O 找餐廳
+BOS 市民大道 有 什麼 好吃 的 餐廳 EOS	B-地點 O O O O O 找餐廳

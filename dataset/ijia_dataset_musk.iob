@@ -1,0 +1,955 @@
+BOS 幫 我 找 一間 餐廳 EOS	O O O O O O 找餐廳
+BOS 好餓 喔 有 甚麼 好吃 的 EOS	O O O O O B-餐廳需求::評價 O 找餐廳
+BOS 你 有 建議 的 餐廳 嗎 EOS	O O O O O O O 找餐廳
+BOS 吃飯 EOS	O O 找餐廳
+BOS 餓 了 來點 東西 吃 EOS	O O O O O O 找餐廳
+BOS 只要 可以 填飽 肚子 就 可以 EOS	O O O O O O O 找餐廳
+BOS 有 甚麼 好 推薦 EOS	O O O O B-人氣 找餐廳
+BOS 提供 幾間 餐廳 來 讓 我 挑 吧 EOS	O O O O O O O O O 找餐廳
+BOS 我 想 吃 東西 EOS	O O O O O 找餐廳
+BOS 我 餓 了 EOS	O O O O 找餐廳
+BOS 我 不 知道 要 吃 甚麼 耶 EOS	O O O O O O O O 找餐廳
+BOS 你 推薦 什麼 料理 呢 EOS	O O B-人氣 O O O 找餐廳
+BOS 我 想要 找 一間 餐廳 EOS	O O O O O O 找餐廳
+BOS 好餓 喔 有 什麼 好吃 的 嗎 EOS	O O O O O B-餐廳需求::評價 O O 找餐廳
+BOS 吃 東西 吃 東西 EOS	O O O O O 找餐廳
+BOS 這間 餐廳 最晚 營業 到 幾點 EOS	O O O O O O O 找餐廳
+BOS 這間 餐廳 中午 用餐 到 幾點 呢 EOS	O O O O O O O O 找餐廳
+BOS 12 點了 吃飯 去 EOS	O O O O O 找餐廳
+BOS 現在 可以 吃 甚麼 EOS	O O O O O 找餐廳
+BOS 三更半夜 有 什麼 可以 吃 EOS	O O O O O O 找餐廳
+BOS 我 想要 有 提供 運動 賽事直播 的 餐廳 EOS	O O O O O O O O O 找餐廳
+BOS 有 沒有 素食 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 推薦 我 幾個 美式餐廳 EOS	O B-人氣 O O B-餐廳需求::類型 找餐廳
+BOS 來個 手工 咖啡店 吧 EOS	O O O B-餐廳需求::類型 O 找餐廳
+BOS 內湖 有 什麼 好吃 日本料理 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 B-餐廳需求::類型 O 找餐廳
+BOS 有 什麼 好吃 的 日本料理 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::類型 找餐廳
+BOS 我 好 渴有 沒有 好喝 的 手搖飲料 店 EOS	O O O O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 京站 裡面 有 漢堡 店 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::餐點 O O 找餐廳
+BOS 我 好餓 幫 我 找 附近 吃到飽 的 店 EOS	O O O O O O O B-吃到飽 O O 找餐廳
+BOS 這 附近 有 沒有 吃到飽 的 餐廳 EOS	O O O O O B-吃到飽 O O 找餐廳
+BOS 我 想要 找 捷運站 附近 的 餐廳 EOS	O O O O O O O O 找餐廳
+BOS 火車站 附近 有 甚麼 好吃 的 嗎 EOS	O O O O O B-餐廳需求::評價 O O 找餐廳
+BOS 家裡 附近 有 什麼 好吃 的 EOS	O O O O O B-餐廳需求::評價 O 找餐廳
+BOS 737巷 有 推薦 的 餐廳 嗎 EOS	O B-餐廳需求::地點 O B-人氣 O O O 找餐廳
+BOS 高雄 美食 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 內湖 推薦 美食 EOS	O B-餐廳需求::地點 B-人氣 O 找餐廳
+BOS 等等 會 去 737巷 那邊 晃晃 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 想要 離 台北車站 近 的 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 想 去 江南 街上 看看 EOS	O O O O O O 找餐廳
+BOS 你 覺得 台北車站 有 什麼 好吃 的 EOS	O O O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 那個 捷運站 附近 有 吃 的 嗎 EOS	O O O O O O O O 找餐廳
+BOS 夏慕尼 好吃 嗎 EOS	O B-餐廳需求::店名 B-餐廳需求::評價 O 找餐廳
+BOS 夏慕尼 評價 高 嗎 EOS	O B-餐廳需求::店名 B-餐廳需求::評價 O O 找餐廳
+BOS 金泰 的 料理 新鮮 嗎 EOS	O B-餐廳需求::店名 O O O O 找餐廳
+BOS 請問 王品牛排 好吃 嗎 EOS	O O B-餐廳需求::店名 B-餐廳需求::評價 O 找餐廳
+BOS 請問 洪 師傅 牛肉麵 好吃 嗎 EOS	O O O O B-餐廳需求::餐點 B-餐廳需求::評價 O 找餐廳
+BOS 百八 評價 EOS	O B-餐廳需求::店名 B-餐廳需求::評價 找餐廳
+BOS 聽說 夏慕尼 不錯 你 有 吃過 嗎 EOS	O O B-餐廳需求::店名 O O O O O 找餐廳
+BOS 夏慕尼 有 什麼 好吃 的 阿 EOS	O B-餐廳需求::店名 O O B-餐廳需求::評價 O O 找餐廳
+BOS 西堤 的 鴨胸 好吃 嗎 EOS	O B-餐廳需求::店名 O B-餐廳需求::餐點 B-餐廳需求::評價 O 找餐廳
+BOS 夏慕尼 還行 嗎 EOS	O B-餐廳需求::店名 O O 找餐廳
+BOS 夏慕尼 人氣指數 EOS	O B-餐廳需求::店名 B-人氣 找餐廳
+BOS 夏慕尼 有人 推 嗎 EOS	O B-餐廳需求::店名 O B-人氣 O 找餐廳
+BOS 我 想要 找 火車站 附近 的 夏慕尼 EOS	O O O O O O O B-餐廳需求::店名 找餐廳
+BOS 淬義 在哪 EOS	O O O 找餐廳
+BOS 士林夜市 附近 有 喬記 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::店名 O 找餐廳
+BOS 火車站 附近 有 沒有 夏慕尼 EOS	O O O O O B-餐廳需求::店名 找餐廳
+BOS 夏慕尼 在哪 EOS	O B-餐廳需求::店名 O 找餐廳
+BOS 我 找不到 夏慕尼 EOS	O O O B-餐廳需求::店名 找餐廳
+BOS 幫 我 找 最近 的 夏慕尼 EOS	O O O O O O B-餐廳需求::店名 找餐廳
+BOS 幫 我 找 阿明豬心冬粉 在 哪裡 EOS	O O O O B-餐廳需求::店名 O O 找餐廳
+BOS 臺北火車站 附近 的 夏慕尼 在 哪裡 EOS	O O O O B-餐廳需求::店名 O O 找餐廳
+BOS 有 沒有 泰式料理 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 我要 好吃 的 甜點 EOS	O O B-餐廳需求::評價 O B-餐廳需求::餐點 找餐廳
+BOS 哪一間 餐廳 的 德國豬腳 比較 好吃 EOS	O O O O O O B-餐廳需求::評價 找餐廳
+BOS 我 有點 感冒 想吃點 熱的東西 EOS	O O O O O O 找餐廳
+BOS 我 想要 吃 簡餐 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想要 吃 漢堡 哪裡 有 EOS	O O O O B-餐廳需求::餐點 O O 找餐廳
+BOS 哪邊 的 雞排 最 好吃 EOS	O O O B-餐廳需求::餐點 O B-餐廳需求::評價 找餐廳
+BOS 最 有名 的 牛肉麵 在 哪裡 EOS	O O B-人氣 O B-餐廳需求::餐點 O O 找餐廳
+BOS 我 想要 有 提供 日式 的 餐點 EOS	O O O O O B-餐廳需求::類型 O O 找餐廳
+BOS 這 附近 有 簡餐 嗎 EOS	O O O O B-餐廳需求::類型 O 找餐廳
+BOS 漢堡 台北 推薦 EOS	O B-餐廳需求::餐點 O B-人氣 找餐廳
+BOS 今天 想 吃 冰 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 今天 適合 吃 燒烤 嗎 EOS	O O O O B-餐廳需求::餐點 O 找餐廳
+BOS 今天 想 吃 漢堡 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 想 找 賣 蔥油餅 的 店家 EOS	O O O O B-餐廳需求::餐點 O O 找餐廳
+BOS 我 想 吃 炸豬排 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 聖誕節 有 提供 甚麼 特別 的 餐點 嗎 EOS	O B-節日 O O O O O O O 找餐廳
+BOS 過年 期間 有 營業 嗎 EOS	O O O O O O 找餐廳
+BOS 找個 壽星優惠 的 店 EOS	O O O O O 找餐廳
+BOS 結婚紀念日 可以 去 哪 吃 EOS	O B-節日 O O O O 找餐廳
+BOS 端午節 可以 去 哪 吃飯 EOS	O B-節日 O O O O 找餐廳
+BOS 母親節 餐廳 有 什麼 推薦 的 呢 EOS	O B-節日 O O O B-人氣 O O 找餐廳
+BOS 父親節 大餐 吃 什麼 EOS	O B-節日 O O O 找餐廳
+BOS 請 推薦 母親節 餐廳 EOS	O O B-人氣 B-節日 O 找餐廳
+BOS 母親節 有 甚麼 推薦 的 餐廳 嗎 EOS	O B-節日 O O B-人氣 O O O 找餐廳
+BOS 情人節 要 吃 什麼 EOS	O B-節日 O O O 找餐廳
+BOS 中秋節 烤肉 地點 EOS	O B-節日 B-餐廳需求::餐點 O 找餐廳
+BOS 聖誕節 有 什麼 特別 的 可以 吃 嗎 EOS	O B-節日 O O O O O O O 找餐廳
+BOS 哪裡 可以 吃 聖誕 大餐 EOS	O O O O B-節日 O 找餐廳
+BOS 有 什麼 餐廳 有 聖誕節 小 禮物 EOS	O O O O O B-節日 O O 找餐廳
+BOS 月底 了 隨便 吃 EOS	O O O O O 找餐廳
+BOS 公司 發 獎金 吃點 好 的 犒賞 自己 EOS	O O O O O O O O O 找餐廳
+BOS 好久 沒 吃好的 今天 來點 不 一樣 的 EOS	O O O O O O O O O 找餐廳
+BOS 我 想要 便宜 一點 的 餐廳 EOS	O O O B-價位 O O O 找餐廳
+BOS 我要 吃 超高級 餐廳 你 知道 有 哪家 好吃 EOS	O O O B-價位 O O O O O B-餐廳需求::評價 找餐廳
+BOS 附近 有 沒有 正在 打折 或 優惠 的 店 EOS	O O O O O O O O O O 找餐廳
+BOS 告訴 我 今天 中午 的 天氣 狀況 EOS	O O O O O O O O 問天氣
+BOS 以上 的 選項 我 都 不喜歡 耶 EOS	O O O O O O O O 否定句
+BOS 你給 的 建議 都 不錯 唷 EOS	O O O O O O O 肯定句
+BOS 安安 你好 幾歲 住 哪 啊 EOS	O B-打招呼 B-打招呼 O O O O Who
+BOS 謝謝 你 的 幫助 啊 EOS	O O O O O O 結束
+BOS 你好 EOS	O B-打招呼 正面問候句
+BOS 吃飽 了 嗎 EOS	O O O O 聊天
+BOS 早安 EOS	O B-打招呼 正面問候句
+BOS 午安 EOS	O B-打招呼 正面問候句
+BOS 晚安 EOS	O B-打招呼 正面問候句
+BOS 你 心情好 嗎 EOS	O O O O 正面問候句
+BOS 你 住 哪裡 呀 EOS	O O O O O Where
+BOS 哈囉 EOS	O B-打招呼 正面問候句
+BOS 你 最近好嗎 EOS	O O O 正面問候句
+BOS 我 今天 很 開心 你 呢 EOS	O O O O O O O 正面問候句
+BOS 你 是 誰 EOS	O O O O Who
+BOS 你 是 男生 還是 女生 啊 EOS	O O O O O O O Who
+BOS 你 身體 還好 嗎 EOS	O O O O O 聊天
+BOS 今天 心情好 嗎 EOS	O O O O 正面問候句
+BOS 很 開心 見到 你 EOS	O O O O O 正面問候句
+BOS 你 看起來 心情很好 呢 雖然 我 沒 眼睛 EOS	O O O O O O O O O 正面問候句
+BOS 你 很笨 EOS	O O B-對罵 負面問候句
+BOS 笨蛋 EOS	O B-對罵 負面問候句
+BOS 你 都 聽不懂 EOS	O O O O 負面問候句
+BOS 傻子 EOS	O B-對罵 負面問候句
+BOS 混帳 東西 EOS	O B-對罵 O 負面問候句
+BOS 你 不要 惹 我 我 現在 心情很差 EOS	O O O O O O O O 負面問候句
+BOS 你 很 爛耶 EOS	O O O B-對罵 負面問候句
+BOS 你 怎麼 這麼笨 啊 EOS	O O O O O 負面問候句
+BOS 你 不要鬧 了 好不好 EOS	O O O O O 負面問候句
+BOS 你 好煩 走開 啦 EOS	O O B-對罵 O O 負面問候句
+BOS 你 組馬 咧 EOS	O O O O 負面問候句
+BOS 殺小 朋友 啦 EOS	O B-對罵 O O 負面問候句
+BOS 你 是 白癡 嗎 EOS	O O O B-對罵 O 負面問候句
+BOS 不要 耍 智障 EOS	O O O B-對罵 負面問候句
+BOS 花惹發 EOS	O B-對罵 負面問候句
+BOS 請問 你 吃飽 了 嗎 EOS	O O O O O O 聊天
+BOS 我 想要 找 親子餐廳 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想要 有 現場 表演 的 餐廳 EOS	O O O O O O O O 找餐廳
+BOS 吃到飽 餐廳 EOS	O B-吃到飽 O 找餐廳
+BOS 日式 泰式 台式 西式 都 可以 EOS	O B-餐廳需求::類型 B-餐廳需求::類型 B-餐廳需求::類型 B-餐廳需求::類型 O O 找餐廳
+BOS 有 好吃 的 台式料理 嗎 EOS	O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 有 平價 的 法式料理 嗎 EOS	O O B-價位 O B-餐廳需求::類型 O 找餐廳
+BOS 有 不錯 生魚片 的 日本料理 嗎 EOS	O O O B-餐廳需求::餐點 O B-餐廳需求::類型 O 找餐廳
+BOS 這 附近 有 推薦 的 韓式烤肉 嗎 EOS	O O O O B-人氣 O B-餐廳需求::類型 O 找餐廳
+BOS 哪裡 有 好吃 的 韓式烤肉 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::類型 找餐廳
+BOS 你 吃過 哪間 韓式烤肉 好吃 EOS	O O O O B-餐廳需求::類型 B-餐廳需求::評價 找餐廳
+BOS 哪裡 可以 吃 越南菜 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 泰國菜 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 有 越南 小吃 嗎 EOS	O O O B-餐廳需求::類型 O 找餐廳
+BOS 來個 日式餐廳 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 有 美式餐廳 嗎 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 我 想 找 好吃 的 泰式餐廳 EOS	O O O O B-餐廳需求::評價 O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 日本料理 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 上次 蘇珊 去 吃 的 那家 家庭料理 EOS	O O O O O O O O O O O 找餐廳
+BOS 我要 找能 通宵 看 運動 比賽 的 美式餐廳 EOS	O O O O O O O O B-餐廳需求::類型 找餐廳
+BOS 幫 我 找 陽光街 上 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 美麗華 裡面 有 甚麼 好吃 的 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O 找餐廳
+BOS 我 不想 走 太遠 找間 離 我 近一點 的 餐廳 吧 EOS	O O O O O O O O O O O O 找餐廳
+BOS 內湖 哪裡 有 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 士林夜市 推薦 什麼 小吃 呢 EOS	O B-餐廳需求::地點 B-人氣 O B-餐廳需求::類型 O 找餐廳
+BOS 台北車站 吃 什麼 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 大直 周圍 有 推薦 的 嗎 EOS	O O O O B-人氣 O O 找餐廳
+BOS 推薦 士林夜市 有 啥 美食 EOS	O B-人氣 B-餐廳需求::地點 O O O 找餐廳
+BOS 板橋 火車站 裡有 什麼 好吃 的 EOS	O O O O O B-餐廳需求::評價 O 找餐廳
+BOS 家裡 附近 有 消夜 嗎 EOS	O O O O O O 找餐廳
+BOS 有 啥 餐廳 在 家裡 附近 EOS	O O O O O O O 找餐廳
+BOS 士林夜市 人氣 小吃 推薦 EOS	O B-餐廳需求::地點 B-人氣 B-餐廳需求::類型 B-人氣 找餐廳
+BOS 公司 附近 有 好吃 的 甜點 店 嗎 EOS	O O O O B-餐廳需求::評價 O B-餐廳需求::餐點 O O 找餐廳
+BOS 陽光街 附近 有 沒有 賣 車輪餅 的 EOS	O B-餐廳需求::地點 O O O O B-餐廳需求::餐點 O 找餐廳
+BOS 淬義 評價 怎樣 EOS	O O B-餐廳需求::評價 O 找餐廳
+BOS 喬記 餐點 味道如何 EOS	O B-餐廳需求::店名 O O 找餐廳
+BOS 順園小館 評價 如何 EOS	O B-餐廳需求::店名 B-餐廳需求::評價 O 找餐廳
+BOS 覺旅 好不好吃 EOS	O B-餐廳需求::店名 O 找餐廳
+BOS 北一家 網路 上 有 評論 嗎 EOS	O B-餐廳需求::店名 O O O B-餐廳需求::評價 O 找餐廳
+BOS 台北車站 附近 有 三商巧福 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::店名 O 找餐廳
+BOS 行天宮站 附近 有 紅屋牛排 的 分店 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::店名 O O O 找餐廳
+BOS 夏慕尼 分店 EOS	O B-餐廳需求::店名 O 找餐廳
+BOS 王品 分店 南港 EOS	O B-餐廳需求::店名 O B-餐廳需求::地點 找餐廳
+BOS 我 想 吃 晴光市場 的 鮭魚炒飯 EOS	O O O O B-餐廳需求::地點 O B-餐廳需求::餐點 找餐廳
+BOS 我 想要 吃 布朗尼 EOS	O O O O O 找餐廳
+BOS 我 吃素 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 我 有點 感冒 想吃點 熱呼呼 的 東西 EOS	O O O O O O O O 找餐廳
+BOS 有 賣 三味魚 的 泰式料理 嗎 EOS	O O O B-餐廳需求::餐點 O B-餐廳需求::類型 O 找餐廳
+BOS 去 哪裡 吃 好吃 的 漢堡 EOS	O O O O B-餐廳需求::評價 O B-餐廳需求::餐點 找餐廳
+BOS 推薦 好吃 義大利麵 EOS	O B-人氣 B-餐廳需求::評價 B-餐廳需求::餐點 找餐廳
+BOS 想要 有 麻辣火鍋 的 EOS	O O O B-餐廳需求::餐點 O 找餐廳
+BOS 我 想 喝 湯幫 我 找找 附近 好喝 的湯 EOS	O O O O O O O O B-餐廳需求::評價 O 找餐廳
+BOS 有 沒有 便宜 又 吃 得 飽 的 EOS	O O O B-價位 O O O O O 找餐廳
+BOS 今天 隨便 吃 EOS	O O O O 找餐廳
+BOS 想 在 港墘 附近 吃 就 好 是否 有 推推 EOS	O O O B-餐廳需求::地點 O O O O O O O 找餐廳
+BOS 附近 有 捷運站 可以 搭 嗎 EOS	O O O O O O O 找餐廳
+BOS 有 捷運 可到 EOS	O O O O 找餐廳
+BOS 在 捷運站 附近 EOS	O O O O 找餐廳
+BOS 附近 有 捷運站 嗎 EOS	O O O O O 找餐廳
+BOS 這 捷運站 內有 美食街 嗎 EOS	O O O O O O 找餐廳
+BOS 西湖捷運站 附近 有 好吃 的 拉麵 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O B-餐廳需求::餐點 O 找餐廳
+BOS 北投站 附近 火鍋店 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 捷運站 麥當勞 EOS	O O B-餐廳需求::店名 找餐廳
+BOS 要 搭 捷運 可以 到 的 EOS	O O O O O O O 找餐廳
+BOS 有 靠近 捷運站 的 店 嗎 EOS	O O O O O O O 找餐廳
+BOS 從 餐廳 搭 捷運 方便 嗎 EOS	O O O O O O O 找餐廳
+BOS 有 賣 麵包 的 捷運站 EOS	O O O B-餐廳需求::餐點 O O 找餐廳
+BOS 想出 捷運 順便 買個 便當 EOS	O O O O O B-餐廳需求::類型 找餐廳
+BOS 請問 附近 是否 有 捷運站 EOS	O O O O O O 找餐廳
+BOS 後山埤站 附近 有 一家 好吃 的 豬腳飯 知道 在 哪裡 嗎 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O B-餐廳需求::餐點 O O O O 找餐廳
+BOS 我要 找 最近很紅 的 餐廳 EOS	O O O B-人氣 O O 找餐廳
+BOS 有 評價 好 的 餐廳 可 推薦 嗎 EOS	O O B-餐廳需求::評價 O O O O B-人氣 O 找餐廳
+BOS 哪家 餐廳 生意最好 EOS	O O O B-人氣 找餐廳
+BOS 我 想 找 最 多人 推薦 的 牛肉麵 店 EOS	O O O O O O B-人氣 O B-餐廳需求::餐點 O 找餐廳
+BOS 我 想 找 最 多人 推薦 的 鐵板燒 EOS	O O O O O O B-人氣 O B-餐廳需求::餐點 找餐廳
+BOS 十大 推薦 燒烤 EOS	O O B-人氣 B-餐廳需求::餐點 找餐廳
+BOS 最近 有 什麼 很夯 的 店 嗎 EOS	O O O O B-人氣 O O O 找餐廳
+BOS 附近 有 排隊 小吃 嗎 EOS	O O O O B-餐廳需求::類型 O 找餐廳
+BOS 附近 有 網路 上 很 推 的 餐廳 嗎 EOS	O O O O O O B-人氣 O O O 找餐廳
+BOS 我 想要 吃 好吃 咖哩飯 EOS	O O O O B-餐廳需求::評價 B-餐廳需求::餐點 找餐廳
+BOS 最近 在 排隊 的 餐廳 EOS	O O O O O O 找餐廳
+BOS 台北市 的 人氣 餐廳 推薦 EOS	O O O B-人氣 O B-人氣 找餐廳
+BOS 內湖 有人 氣店 嗎 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 附近 有 停車場 嗎 EOS	O O O B-停車 O 找餐廳
+BOS 餐廳 有 沒有 提供 停車 EOS	O O O O O B-停車 找餐廳
+BOS 餐廳 有 附 停車場 嗎 EOS	O O O O B-停車 O 找餐廳
+BOS 有 停車 的 地方 嗎 EOS	O O B-停車 O O O 找餐廳
+BOS 有 餐廳 附近 的 停車 資訊 嗎 EOS	O O O O O B-停車 O O 找餐廳
+BOS 餐廳 有 沒有 代客泊車 的 服務 EOS	O O O O B-停車 O O 找餐廳
+BOS 這 附近 有 公有停車場 嗎 EOS	O O O O O O 描述
+BOS 火烤兩吃 好 停車 EOS	O B-餐廳需求::類型 O B-停車 找餐廳
+BOS 熱炒 停車場 EOS	O B-餐廳需求::類型 B-停車 找餐廳
+BOS 有 車位 嗎 EOS	O O B-停車 O 找餐廳
+BOS 附近 可以 停車 嗎 EOS	O O O B-停車 O 找餐廳
+BOS 有 代客泊車 的 餐廳 EOS	O O B-停車 O O 找餐廳
+BOS 停車 方便 嗎 EOS	O B-停車 O O 找餐廳
+BOS 停車場 距離 餐廳 多遠 EOS	O B-停車 O O O 找餐廳
+BOS 推薦 一家 有名 的 餐廳 吧 EOS	O B-人氣 O B-人氣 O O O 找餐廳
+BOS 我 想 找 米其林 的 餐廳 EOS	O O O O O O O 找餐廳
+BOS 極推 韓式烤肉 EOS	O B-人氣 B-餐廳需求::類型 找餐廳
+BOS 幫找 在 花蓮 必吃 的 店 料理 EOS	O O O O B-人氣 O O O 找餐廳
+BOS 我要 喝 冠軍 咖啡 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我要 吃 第一名 牛肉麵 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 找 台北市 有名 的 餐廳 EOS	O O O O O B-人氣 O O 找餐廳
+BOS 家族 聚會 的 餐廳 EOS	O O O O O 找餐廳
+BOS 幫 我 找 單身 的 餐廳 EOS	O O O O O O O 找餐廳
+BOS 內湖 中式 小 酒館 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 O B-餐廳需求::類型 找餐廳
+BOS 內湖 的 餐廳 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 南京東路三段 的 美式 牛排餐廳 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 O 找餐廳
+BOS 我要 找 南京東路四段 的 美式 牛排餐廳 EOS	O O O B-餐廳需求::地點 O B-餐廳需求::類型 O 找餐廳
+BOS 我要 找 忠孝東路二段 的 日式料理 EOS	O O O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 南京東路 的 美式 牛排餐廳 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 O 找餐廳
+BOS 王品 南港 分店 EOS	O B-餐廳需求::店名 B-餐廳需求::地點 O 找餐廳
+BOS 我要 找 一間 餐廳 吃 牛排 的 EOS	O O O O O O B-餐廳需求::餐點 O 找餐廳
+BOS 我要 找 豬排 餐廳 EOS	O O O B-餐廳需求::餐點 O 找餐廳
+BOS 輔大 附近 的 牛排 店 EOS	O B-餐廳需求::地點 O O B-餐廳需求::餐點 O 找餐廳
+BOS 青海 路上 的 緬甸菜 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 大同高中 附近 的 EOS	O O O O 找餐廳
+BOS 我要 找 美式 的 牛排 EOS	O O O B-餐廳需求::類型 O B-餐廳需求::餐點 找餐廳
+BOS 內湖 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 台北市 的 餐廳 EOS	O O O O 找餐廳
+BOS 幫 我 找 大直 附近 的 美式餐廳 EOS	O O O O O O O B-餐廳需求::類型 找餐廳
+BOS 找 牛排餐廳 EOS	O O O 找餐廳
+BOS 我 想要 在 陽明山 呷飯 EOS	O O O O B-餐廳需求::地點 O 找餐廳
+BOS 有人 說 他 想 喝啤酒 EOS	O O O O O O 找餐廳
+BOS 哪裡 有 美式餐廳 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 台北小巨蛋 附近 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 幫 我 找 陽光街 餐廳 EOS	O O O O B-餐廳需求::地點 O 找餐廳
+BOS 幫 我 找 中式料理 的 地方 EOS	O O O O B-餐廳需求::類型 O O 找餐廳
+BOS 幫 我 找 仁寶 附近 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 內湖 有 什麼 海鮮餐廳 推薦 嗎 EOS	O B-餐廳需求::地點 O O O B-人氣 O 找餐廳
+BOS 父親節 餐廳 EOS	O B-節日 O 找餐廳
+BOS 中山站 附近 可以 吃 中華料理 的 地方 EOS	O B-餐廳需求::地點 O O O O O O 找餐廳
+BOS 金泰 好吃 嗎 EOS	O B-餐廳需求::店名 B-餐廳需求::評價 O 找餐廳
+BOS 我 想 找 內湖 附近 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 中正紀念堂 附近 的 越式料理 EOS	O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 淡水老街 EOS	O B-餐廳需求::地點 找餐廳
+BOS 萬芳社區 的 居酒屋 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 民權東路 跟 新生北路 交叉口 有 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O B-餐廳需求::地點 O O O B-餐廳需求::評價 O O 找餐廳
+BOS 安和路 的 居酒屋 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 建國假日花市 EOS	O B-餐廳需求::地點 找餐廳
+BOS 忠孝東路五段 可以 吃 什麼 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 素食 餐廳 EOS	O B-餐廳需求::類型 O 找餐廳
+BOS 對 的 EOS	O O O 肯定句
+BOS 我要 找 原燒 EOS	O O O O 找餐廳
+BOS 有 什麼 好吃 的 早餐 店 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 不是 的 EOS	O O O 否定句
+BOS 不 不 不 EOS	O O O O 否定句
+BOS 南港軟體園區 EOS	O B-餐廳需求::地點 找餐廳
+BOS 幫 我 找 港墘站 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 台北 吃到飽 EOS	O O B-吃到飽 找餐廳
+BOS 加班 要 去 哪裡 吃 晚餐 EOS	O O O O O O B-餐廳需求::類型 找餐廳
+BOS 龍山寺 附近 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 幫 我 找 吃到飽 餐廳 EOS	O O O O B-吃到飽 O 找餐廳
+BOS 幫找 市政府 附近 的 咖啡廳 EOS	O O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 不錯 喔 EOS	O O O 肯定句
+BOS 母親節 餐廳 EOS	O B-節日 O 找餐廳
+BOS 木柵動物園 附近 EOS	O O O 找餐廳
+BOS 大直 的 日本料理 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 幫 我 找 南港車站 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 再見 EOS	O O 結束
+BOS 是 耶 EOS	O O O 肯定句
+BOS 不是 耶 EOS	O O O 肯定句
+BOS 是 唷 EOS	O O O 肯定句
+BOS 不是 喔 EOS	O O O 否定句
+BOS 都 不是 EOS	O O O 否定句
+BOS 不是 唷 EOS	O O O 否定句
+BOS 瑞光路 附近 的 餐廳 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 夏慕尼 好不好吃 EOS	O B-餐廳需求::店名 O 找餐廳
+BOS 瞞著爹 EOS	O B-餐廳需求::店名 找餐廳
+BOS 中山北路 的 韓國式料理 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 林森北路 附近 的 餐廳 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 幫 我 找 摩斯漢堡 EOS	O O O O B-餐廳需求::店名 找餐廳
+BOS 幫 我 找 麥當勞 EOS	O O O O B-餐廳需求::店名 找餐廳
+BOS 我 想 找 慶祝 母親節 的 餐廳 EOS	O O O O O B-節日 O O 找餐廳
+BOS 幫 我 找 武藤拉麵 EOS	O O O O B-餐廳需求::店名 找餐廳
+BOS 內湖 中午 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O 找餐廳
+BOS 要 EOS	O O 肯定句
+BOS 內湖 有 什麼 好吃 的 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O 找餐廳
+BOS 美麗華 附近 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 陽明山 上 的 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 好久 沒 吃 蕎麥麵 附近 有 嗎 EOS	O O O O B-餐廳需求::餐點 O O O 找餐廳
+BOS 找 一下 內湖 的 餐廳 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 喜憨兒烘焙餐廳 好吃 嗎 EOS	O B-餐廳需求::店名 B-餐廳需求::評價 O 找餐廳
+BOS 不 對 唷 EOS	O O O O 否定句
+BOS 不好 EOS	O O 否定句
+BOS 好 EOS	O O 肯定句
+BOS 不要 EOS	O O 否定句
+BOS 都 不要 EOS	O O O 否定句
+BOS 下次 見 EOS	O O O 結束
+BOS 謝 啦 EOS	O O O 結束
+BOS 重新 EOS	O O Reset
+BOS 附近 的 日式餐廳 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 重新 來 一次 EOS	O O O O Reset
+BOS 你 在 哪裡 啊 EOS	O O O O O Where
+BOS 我 想 找 附近 的 餐廳 EOS	O O O O O O O 找餐廳
+BOS 請 推薦 我 美式餐廳 EOS	O O B-人氣 O B-餐廳需求::類型 找餐廳
+BOS 幫 我 找 內湖 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 想 吃 鰻魚飯 EOS	O O O B-餐廳需求::餐點 找餐廳
+BOS 請 給我 士林夜市 的 資訊 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 以上 餐廳 我 都 不喜歡 EOS	O O O O O O 否定句
+BOS 請 給我 南港 的 日式餐廳 EOS	O O O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 請 給我 陽光街 附近 的 餐廳 EOS	O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 有 其他 家 嗎 EOS	O O O O O 否定句
+BOS 好要 停車場 EOS	O O B-停車 找餐廳
+BOS 還有 其他 推薦 嗎 EOS	O O O B-人氣 O 否定句
+BOS 還有 沒有 其他 的 推薦 EOS	O O O O O B-人氣 否定句
+BOS 還有 其他 的 餐廳 嗎 EOS	O O O O O O 否定句
+BOS 謝謝 再 聯絡 EOS	O O O O 結束
+BOS 謝謝 啦 EOS	O O O 結束
+BOS 謝謝 你 EOS	O O O 結束
+BOS 永康街 的 鼎泰豐 好吃 嗎 EOS	O B-餐廳需求::地點 O B-餐廳需求::店名 B-餐廳需求::評價 O 找餐廳
+BOS 掰掰 EOS	O O 結束
+BOS 再會 EOS	O O 結束
+BOS 掰 EOS	O O 結束
+BOS 樂雅樂 EOS	O B-餐廳需求::店名 找餐廳
+BOS 瑞光路 上 有 沒有 西堤 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::店名 找餐廳
+BOS 請 給我 西堤 牛排 的 資訊 EOS	O O O B-餐廳需求::店名 B-餐廳需求::餐點 O O 找餐廳
+BOS 瑞光路 上 有 沒有 好吃 的 西餐廳 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O B-餐廳需求::類型 找餐廳
+BOS 還有 呢 EOS	O O O 否定句
+BOS 你好 嗎 EOS	O B-打招呼 O 正面問候句
+BOS 幫 我 找 天母 附近 的 餐廳 EOS	O O O O O O O O 找餐廳
+BOS 有 其他 的 推薦 嗎 EOS	O O O O B-人氣 O 否定句
+BOS 謝謝 你 的 幫忙 EOS	O O O O O 結束
+BOS 是 EOS	O O 肯定句
+BOS 不是 EOS	O O 否定句
+BOS 對 EOS	O O 肯定句
+BOS 不 對 EOS	O O O 否定句
+BOS 是的 EOS	O O 肯定句
+BOS 永康街 下午茶 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 找餐廳
+BOS 金華公園 你 也 認得 嗎 EOS	O B-餐廳需求::地點 O O O O 找餐廳
+BOS 都 可以 你 決定 EOS	O O O O O 肯定句
+BOS 都 可以 EOS	O O O 肯定句
+BOS 那有 日本料理 嗎 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 中式料理 EOS	O B-餐廳需求::類型 找餐廳
+BOS 父親節 上 哪 慶祝 好 EOS	O B-節日 O O O O 找餐廳
+BOS 蝦餅 EOS	O B-餐廳需求::餐點 找餐廳
+BOS 中式 EOS	O B-餐廳需求::類型 找餐廳
+BOS 有 瓦城 嗎 EOS	O O B-餐廳需求::店名 O 找餐廳
+BOS 泰式 好 EOS	O B-餐廳需求::類型 O 找餐廳
+BOS 內湖路 上 有 賣 豆漿 嗎 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::餐點 O 找餐廳
+BOS 豆漿 總有 了 吧 EOS	O B-餐廳需求::餐點 O O O 找餐廳
+BOS 內湖路 上賣 油條 的 EOS	O B-餐廳需求::地點 O B-餐廳需求::餐點 O 找餐廳
+BOS 有 油條 嗎 EOS	O O B-餐廳需求::餐點 O 找餐廳
+BOS 中式料理 啦 EOS	O B-餐廳需求::類型 O 找餐廳
+BOS 我要 的 是 中式 的 EOS	O O O O B-餐廳需求::類型 O 找餐廳
+BOS 有 中式 嗎 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 美麗華 附近 應該 有 吧 EOS	O B-餐廳需求::地點 O O O O 找餐廳
+BOS 法式料理 EOS	O B-餐廳需求::類型 找餐廳
+BOS 你 忘記 推薦 美式餐廳 了 EOS	O O O B-人氣 B-餐廳需求::類型 O 找餐廳
+BOS 幫 我 找 有 吐司 的 餐廳 EOS	O O O O O B-餐廳需求::餐點 O O 找餐廳
+BOS 吐司 EOS	O B-餐廳需求::餐點 找餐廳
+BOS 美式 EOS	O B-餐廳需求::類型 找餐廳
+BOS 好 啊 EOS	O O O 肯定句
+BOS 可以 EOS	O O 肯定句
+BOS 你 能 知道 我 什麼 意思 嗎 EOS	O O O O O O O O What
+BOS 你給 我 其他 的 餐廳 資訊 好 嗎 EOS	O O O O O O O O O 否定句
+BOS 你 到底 在哪 EOS	O O O O Where
+BOS 你 幫 我 找到 什麼 EOS	O O O O O O What
+BOS 今天 天氣 如何 EOS	O O O O 問天氣
+BOS 請 推薦 EOS	O O B-人氣 找餐廳
+BOS 沒有 沒有 EOS	O O O 否定句
+BOS 我 沒有 問題 了 EOS	O O O O O 結束
+BOS 我 問完 了 EOS	O O O O 結束
+BOS 沒有 EOS	O O 否定句
+BOS 換別 的 EOS	O O O 否定句
+BOS 有 什麼 特異 功能 EOS	O O O O O What
+BOS 您好 EOS	O B-打招呼 正面問候句
+BOS 對 啊 EOS	O O O 肯定句
+BOS 請問 你 的 名字 EOS	O O O O O Who
+BOS 你 可以 做什麼 服務 EOS	O O O O O What
+BOS 你 可以 幹嘛 EOS	O O O O What
+BOS 剛 吃飽 EOS	O O O 聊天
+BOS 好 吧 再見 EOS	O O O O 結束
+BOS i 甲 你好 EOS	O O O B-打招呼 正面問候句
+BOS 換一家 EOS	O O 否定句
+BOS 謝謝 EOS	O O 結束
+BOS 我 想 吃 午餐 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 有 推薦 餐點 嗎 EOS	O O B-人氣 O O 找餐廳
+BOS 便當 店 EOS	O B-餐廳需求::類型 O 找餐廳
+BOS 有 沒有 推薦 的 餐廳 EOS	O O O B-人氣 O O 找餐廳
+BOS 今晚 推薦 什麼 餐廳 EOS	O O B-人氣 O O 找餐廳
+BOS 我要 找 俗又大碗 的 餐廳 EOS	O O O B-價位 O O 找餐廳
+BOS 嗨 EOS	O B-打招呼 正面問候句
+BOS 人氣 推薦 EOS	O B-人氣 B-人氣 找餐廳
+BOS 要 有人 氣 EOS	O O O O 找餐廳
+BOS 小籠包 EOS	O B-餐廳需求::餐點 找餐廳
+BOS 再來 一次 EOS	O O O Reset
+BOS 不要 不要 EOS	O O O 否定句
+BOS 不用 EOS	O O 否定句
+BOS 不 好吃 EOS	O O B-餐廳需求::評價 否定句
+BOS 不要 我要 西餐廳 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 什麼 EOS	O O 正面問候句
+BOS 仁愛醫院 附近 的 餐廳 EOS	O O O O O 找餐廳
+BOS 今天 天氣 很 好 EOS	O O O O O 正面問候句
+BOS 今天 天氣 怎麼樣 EOS	O O O O 問天氣
+BOS 今天 天氣 真好 EOS	O O O O 正面問候句
+BOS 今天 超熱 的 EOS	O O O O 正面問候句
+BOS 公司 附近 有 什麼 吃 的 EOS	O O O O O O O 找餐廳
+BOS 天母 有 什麼 好吃 的 EOS	O O O O B-餐廳需求::評價 O 找餐廳
+BOS 天母 附近 有 什麼 料理店 EOS	O O O O O O 找餐廳
+BOS 天母 附近 的 餐廳 EOS	O O O O O 找餐廳
+BOS 太遠 了 EOS	O O O 否定句
+BOS 太 糟糕 了 EOS	O O O O 負面問候句
+BOS 牛肉麵 EOS	O B-餐廳需求::餐點 找餐廳
+BOS 可以 介紹 其他 家 餐廳 給我 嗎 EOS	O O O O O O O O 否定句
+BOS 台大 附近 有什 好吃 的 EOS	O O O O B-餐廳需求::評價 O 找餐廳
+BOS 再見 再見 EOS	O O O 結束
+BOS 再來 EOS	O O 結束
+BOS 再給 你 一次 機會 EOS	O O O O O 否定句
+BOS 吃大便 EOS	O O 負面問候句
+BOS 吃 什麼 餐廳 EOS	O O O O 找餐廳
+BOS 吃 午餐 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 吃飯 了 EOS	O O O 找餐廳
+BOS 好久 沒 吃 蕎麥麵 附近 有 嗎 EOS	O O O O B-餐廳需求::餐點 O O O 找餐廳
+BOS 好小寶 EOS	O O 正面問候句
+BOS 好 吧 EOS	O O O 肯定句
+BOS 好 的 EOS	O O O 肯定句
+BOS 好喔 EOS	O O 肯定句
+BOS 好像 不 好吃 EOS	O O O B-餐廳需求::評價 否定句
+BOS 好餓 EOS	O O 找餐廳
+BOS 安安 EOS	O B-打招呼 正面問候句
+BOS 早 EOS	O O 正面問候句
+BOS 早餐 吃 什麼 EOS	O B-餐廳需求::類型 O O 找餐廳
+BOS 早 餐廳 EOS	O O O 找餐廳
+BOS 有 EOS	O O 肯定句
+BOS 有 什麼 好吃 的 餐廳 EOS	O O O B-餐廳需求::評價 O O 找餐廳
+BOS 有 什麼 熱門 的 餐廳 嗎 EOS	O O O B-人氣 O O O 找餐廳
+BOS 有 什麼 餐廳 EOS	O O O O 找餐廳
+BOS 有 好吃 的 餐廳 可以 推薦 嗎 EOS	O O B-餐廳需求::評價 O O O B-人氣 O 找餐廳
+BOS 有 更 好吃 的 嗎 EOS	O O O B-餐廳需求::評價 O O 否定句
+BOS 有 沒有 好吃 的 EOS	O O O B-餐廳需求::評價 O 找餐廳
+BOS 有 沒有 其他 的 EOS	O O O O O 否定句
+BOS 有 其他 家 餐廳 嗎 EOS	O O O O O O 否定句
+BOS 有 其他 餐廳 嗎 EOS	O O O O O 否定句
+BOS 西餐廳 EOS	O B-餐廳需求::類型 找餐廳
+BOS 你 什麼都不知道 ， 我 是 要 怎麼 問 EOS	O O O O O O O O O 負面問候句
+BOS 你 去 吃大便 EOS	O O O O 負面問候句
+BOS 你 叫 什麼 名字 EOS	O O O O O Who
+BOS 你 可以 做什麼 EOS	O O O O What
+BOS 你 在 很棒 EOS	O O O O 正面問候句
+BOS 你在說什麼 EOS	O O 負面問候句
+BOS 你好 阿幫 我 找 大湖餐館 EOS	O B-打招呼 O O O O 找餐廳
+BOS 你 的 資料庫 好爛 喔 EOS	O O O O B-對罵 O 負面問候句
+BOS 你 知道 什麼 EOS	O O O O What
+BOS 你 是 在 放錄音帶 嗎 EOS	O O O O O O 負面問候句
+BOS 你 能 了解 什麼 EOS	O O O O O What
+BOS 你 愛我 嗎 EOS	O O O O 正面問候句
+BOS 你 會 做什麼 事 EOS	O O O O O What
+BOS 告訴 我 晚餐 可以 吃吃 什麼 EOS	O O O B-餐廳需求::類型 O O O 找餐廳
+BOS 我 也 很 高興 EOS	O O O O O 正面問候句
+BOS 我 也 無法理解 EOS	O O O O 負面問候句
+BOS 我 不要 EOS	O O O 否定句
+BOS 我 不高興 EOS	O O O 負面問候句
+BOS 我 再問 你 是 誰 EOS	O O O O O O Who
+BOS 我 好想你 EOS	O O O 正面問候句
+BOS 我 好餓 EOS	O O O 找餐廳
+BOS 我 肚子 餓 EOS	O O O O 找餐廳
+BOS 我 很 餓 EOS	O O O O 找餐廳
+BOS 我要 燒烤 店 EOS	O O B-餐廳需求::餐點 O 找餐廳
+BOS 我要 午餐 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 我要 父親節 用 的 EOS	O O B-節日 O O 找餐廳
+BOS 我要 吃飯 EOS	O O O 找餐廳
+BOS 我要 吃 滷肉飯 EOS	O O O B-餐廳需求::餐點 找餐廳
+BOS 我要 找 餐廳 EOS	O O O O 找餐廳
+BOS 我 要問 永和 的 餐廳 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我 都 不喜歡 可以 推薦 其他 的 嗎 EOS	O O O O O B-人氣 O O O 否定句
+BOS 我 喜歡 吃 清粥小菜 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 EOS	O O O O 找餐廳
+BOS 我 想 吃 水餃 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 永和豆漿 EOS	O O O O O 找餐廳
+BOS 我 想 吃宵夜 EOS	O O O O 找餐廳
+BOS 我 想 吃 臭豆腐 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 清粥 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 清粥小菜 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 鬍鬚張 EOS	O O O O B-餐廳需求::店名 找餐廳
+BOS 我 想 找 餐廳 EOS	O O O O O 找餐廳
+BOS 我 想要 EOS	O O O 找餐廳
+BOS 我 想要 吃 什麼 EOS	O O O O O 找餐廳
+BOS 找 餐廳 EOS	O O O 找餐廳
+BOS 肚子 很 餓 EOS	O O O O 找餐廳
+BOS 肚子 餓 可以 吃 什麼 EOS	O O O O O O 找餐廳
+BOS 肚子 餓 了 EOS	O O O O 找餐廳
+BOS 那你 到底 有 什麼 EOS	O O O O O What
+BOS 其他 EOS	O O 否定句
+BOS 其他 推薦 EOS	O O B-人氣 否定句
+BOS 忠誠路 EOS	O B-餐廳需求::地點 找餐廳
+BOS 狎鷗亭 如何 ? EOS	O B-餐廳需求::店名 O O 找餐廳
+BOS 附近 有 什麼 吃 的 EOS	O O O O O O 找餐廳
+BOS 附近 有 什麼 好吃 的 餐廳 EOS	O O O O B-餐廳需求::評價 O O 找餐廳
+BOS 哈嘍 小寶 EOS	O O O 正面問候句
+BOS 哈嘍 小寶 現在 有 什麼 好吃 的 可以 推薦 EOS	O O O O O O B-餐廳需求::評價 O O B-人氣 找餐廳
+BOS 哈嘍 寶哥 囉 EOS	O O O O 正面問候句
+BOS 哈囉 請問 一下 EOS	O B-打招呼 O O 正面問候句
+BOS 很 好笑 EOS	O O O 正面問候句
+BOS 很 高興 認識 你 EOS	O O O O O 正面問候句
+BOS 很棒 EOS	O O 正面問候句
+BOS 很 餓 EOS	O O O 找餐廳
+BOS 拜 EOS	O O 結束
+BOS 拜拜 EOS	O O 結束
+BOS 炸雞排 推薦 EOS	O O B-人氣 找餐廳
+BOS 美食 EOS	O O 找餐廳
+BOS 要 吃 晚餐 嗎 EOS	O O O B-餐廳需求::類型 O 找餐廳
+BOS 重來 EOS	O O Reset
+BOS 哪裡 有 好吃 的 EOS	O O O B-餐廳需求::評價 O 找餐廳
+BOS 哪裡 有 好吃 的 串燒 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::餐點 找餐廳
+BOS 有點 難用 耶 EOS	O O O O 負面問候句
+BOS 你 看不懂 嗎 EOS	O O O O 負面問候句
+BOS 你 要加油 了 EOS	O O O O 負面問候句
+BOS 你 讓 我 心情不好 EOS	O O O O O 負面問候句
+BOS 我 不好 EOS	O O O 負面問候句
+BOS 妳 很 煩 耶 EOS	O O O O O 負面問候句
+BOS 看來 你 要多加油 EOS	O O O O 負面問候句
+BOS 你 好笨 喔 EOS	O O B-對罵 O 負面問候句
+BOS 你 好煩 EOS	O O B-對罵 負面問候句
+BOS 你 走開 啦 EOS	O O O O 負面問候句
+BOS 你 是豬 嗎 EOS	O O O O 負面問候句
+BOS 宵夜 EOS	O B-餐廳需求::類型 找餐廳
+BOS 你豬 嗎 EOS	O O O 負面問候句
+BOS 呆 EOS	O B-對罵 負面問候句
+BOS 笨 EOS	O B-對罵 負面問候句
+BOS 媽的 EOS	O B-對罵 負面問候句
+BOS 幹 EOS	O B-對罵 負面問候句
+BOS 爛死 了 EOS	O B-對罵 O 負面問候句
+BOS 爛耶 EOS	O B-對罵 負面問候句
+BOS 推薦 EOS	O B-人氣 找餐廳
+BOS 推薦 我 幾間 餐廳 EOS	O B-人氣 O O O 找餐廳
+BOS 推薦 餐廳 EOS	O B-人氣 O 找餐廳
+BOS 晚餐 EOS	O B-餐廳需求::類型 找餐廳
+BOS 這 好吃 嗎 EOS	O O B-餐廳需求::評價 O 找餐廳
+BOS 這 附近 有 什麼 EOS	O O O O O 找餐廳
+BOS 這 附近 有 什麼 餐廳 EOS	O O O O O O 找餐廳
+BOS 都 不好 EOS	O O O 否定句
+BOS 都 沒有 我 想要 的 EOS	O O O O O O 否定句
+BOS 喜宴 餐廳 EOS	O O O 找餐廳
+BOS 喝咖啡 聊 是非 的 地方 EOS	O O O O O O 找餐廳
+BOS 港式飲茶 EOS	O B-餐廳需求::類型 找餐廳
+BOS 結束 EOS	O O 結束
+BOS 想 吃 沙拉 EOS	O O O B-餐廳需求::餐點 找餐廳
+BOS 想 吃 拉麵 EOS	O O O B-餐廳需求::餐點 找餐廳
+BOS 想 吃 拉麵 了 EOS	O O O B-餐廳需求::餐點 O 找餐廳
+BOS 想 吃 聖誕 大餐 ， 有 推薦 的 餐廳 嗎 ？ EOS	O O O B-節日 O O O B-人氣 O O O O 找餐廳
+BOS 想 找 不用 走 很遠 的 燒臘 店 EOS	O O O O O O O O O 找餐廳
+BOS 想 找 飲料 店 EOS	O O O O O 找餐廳
+BOS 萬芳站 有 什麼 好吃 的 EOS	O O O O B-餐廳需求::評價 O 找餐廳
+BOS 葉 火鍋 EOS	O O B-餐廳需求::餐點 找餐廳
+BOS 樂雅樂 在 哪裡 EOS	O B-餐廳需求::店名 O O 找餐廳
+BOS 熱門 的 餐廳 EOS	O B-人氣 O O 找餐廳
+BOS 請 告訴 我 哪裡 有 賣 南部粽 EOS	O O O O O O O O 找餐廳
+BOS 餐廳 EOS	O O 找餐廳
+BOS 幫 我 找 人氣 餐廳 EOS	O O O O B-人氣 O 找餐廳
+BOS 幫 我 找 中餐 EOS	O O O O O 找餐廳
+BOS 幫 我 找 好吃 的 餐廳 EOS	O O O O B-餐廳需求::評價 O O 找餐廳
+BOS 幫 我 找 有 水餃 的 餐廳 EOS	O O O O O B-餐廳需求::餐點 O O 找餐廳
+BOS 幫 我 找 有 薯條 的 店 EOS	O O O O O B-餐廳需求::餐點 O O 找餐廳
+BOS 幫 我 找 咖啡店 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 幫 我 找 咖椰 EOS	O O O O O 找餐廳
+BOS 幫 我 找 拉麵 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 幫 我 找 炒飯 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 幫 我 找 附近 的 餐廳 EOS	O O O O O O O 找餐廳
+BOS 幫 我 找 南軟 的 餐廳 EOS	O O O O O O O 找餐廳
+BOS 幫 我 找 南軟園區 的 餐廳 EOS	O O O O O O O 找餐廳
+BOS 幫 我 找 陽春麵 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 幫 我 找 滷肉飯 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 幫 我 找 餐廳 EOS	O O O O O 找餐廳
+BOS 幫 我 找 韓國料理 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 幫 我 找 韓國菜 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 幫 我 找 韓國菜 餐廳 EOS	O O O O B-餐廳需求::類型 O 找餐廳
+BOS 幫 我 推薦 陽光 捷運站 附近 的 餐廳 EOS	O O O B-人氣 O O O O O 找餐廳
+BOS 謝謝 你 的 協助 EOS	O O O O O 結束
+BOS 謝謝 你 的 幫助 EOS	O O O O O 結束
+BOS 謝謝 你 喔 EOS	O O O O 結束
+BOS 還有 其他 的 推薦 嗎 EOS	O O O O B-人氣 O 否定句
+BOS 還有 其他 的 嗎 EOS	O O O O O 否定句
+BOS 還有 其他 選擇 嗎 EOS	O O O O O 否定句
+BOS 韓國菜 EOS	O B-餐廳需求::類型 找餐廳
+BOS 鱗漁場 的 評價 好 嗎 EOS	O B-餐廳需求::店名 O B-餐廳需求::評價 O O 找餐廳
+BOS 你 知道 麗緻 天香樓 嗎 EOS	O O O O B-餐廳需求::店名 O 找餐廳
+BOS 台北車站 EOS	O B-餐廳需求::地點 找餐廳
+BOS 哪裡 有 好吃 的 五更腸旺 EOS	O O O B-餐廳需求::評價 O O 找餐廳
+BOS 哪裡 有 好吃 的 水果沙拉 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::餐點 找餐廳
+BOS 哪裡 有 好吃 的 純 大骨 高湯 拉麵 EOS	O O O B-餐廳需求::評價 O O B-餐廳需求::餐點 O B-餐廳需求::餐點 找餐廳
+BOS 哪裡 有 好吃 的 魚香烘蛋 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::餐點 找餐廳
+BOS 哪裡 有 好喝 的 拉麵湯頭 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 牛肉麵 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 一牛殿 麵 鍋 食堂 EOS	O O O O O 找餐廳
+BOS 一品活蝦 EOS	O B-餐廳需求::店名 找餐廳
+BOS 一起 吃 晚餐 嗎 EOS	O O O B-餐廳需求::類型 O 正面問候句
+BOS 七夕情人節 快到 了 有 什麼 推薦 的 餐廳 EOS	O B-節日 O O O O B-人氣 O O 找餐廳
+BOS 七張站 附近 的 美食 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 七張 捷運 附近 美食 EOS	O O O O O 找餐廳
+BOS 二樓 的 餐廳 資訊 EOS	O O O O O 找餐廳
+BOS 刀削麵 EOS	O B-餐廳需求::餐點 找餐廳
+BOS 三元 韓式料理 的 價位 大概 多少 ? EOS	O O B-餐廳需求::類型 O B-價位 O O O 找餐廳
+BOS 三兄弟 韓式 碳烤 價位 多久 ? EOS	O O B-餐廳需求::類型 O B-價位 O O 找餐廳
+BOS 上班族 推薦 下午茶 EOS	O O B-人氣 B-餐廳需求::類型 找餐廳
+BOS 下午茶 EOS	O B-餐廳需求::類型 找餐廳
+BOS 叉燒包 EOS	O B-餐廳需求::餐點 找餐廳
+BOS 士林 EOS	O B-餐廳需求::地點 找餐廳
+BOS 士林 什麼 好吃 的 EOS	O B-餐廳需求::地點 O B-餐廳需求::評價 O 找餐廳
+BOS 士林 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O B-餐廳需求::評價 O O 找餐廳
+BOS 士林 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 士林 有 什麼 非 吃 的 EOS	O B-餐廳需求::地點 O O O O O 找餐廳
+BOS 士林 有 日式料理 店 嗎 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 O O 找餐廳
+BOS 士林夜市 附近 的 美式餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 士林區 好吃 的 餐廳 EOS	O B-餐廳需求::地點 B-餐廳需求::評價 O O 找餐廳
+BOS 士林區 好吃 的 餐廳 名稱 嗎 EOS	O B-餐廳需求::地點 B-餐廳需求::評價 O O O O 找餐廳
+BOS 士林區 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 士林區 有 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O 找餐廳
+BOS 士林區 美食 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 大安站 EOS	O B-餐廳需求::地點 找餐廳
+BOS 大安區 EOS	O B-餐廳需求::地點 找餐廳
+BOS 大安區 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 大安區 有 嗎 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 大安區 的 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 大安區 附近 有 什麼 好吃 的 嗎 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O O 找餐廳
+BOS 大安森林公園 附近 的 餐廳 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 大安森林公園 附近 都 沒有 好吃 的 嗎 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O O 找餐廳
+BOS 大直 有 好吃 的 牛排 嗎 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::餐點 O 找餐廳
+BOS 大直 有 好吃 的 甜點 店 嗎 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::餐點 O O 找餐廳
+BOS 大直 的 燒烤 店 EOS	O O O B-餐廳需求::餐點 O 找餐廳
+BOS 大直 的 餐廳 EOS	O O O O 找餐廳
+BOS 大直站 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 大笨蛋 EOS	O B-對罵 負面問候句
+BOS 大湖公園 附近 的 餐廳 EOS	O O O O O 找餐廳
+BOS 小北街 有 什麼 好吃 得 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 小吃店 EOS	O O 找餐廳
+BOS 小吃 港式飲茶 EOS	O B-餐廳需求::類型 B-餐廳需求::類型 找餐廳
+BOS 小說 先給 我 小高玉 日本 料理店 的 資訊 EOS	O O O O B-餐廳需求::店名 O O O O 找餐廳
+BOS 不要 日式餐廳 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 不然 找 大直捷運站 附近 好 的 了 EOS	O O O B-餐廳需求::地點 O O O O 找餐廳
+BOS 不然 換 韓式料理 好了 EOS	O O O B-餐廳需求::類型 O 找餐廳
+BOS 中山 EOS	O B-餐廳需求::地點 找餐廳
+BOS 中山北路 的 餐廳 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 中山北路 附近 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O 找餐廳
+BOS 中山站 吃 什麼 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 中山站 附近 ， 可以 吃 中華料理 的 地方 EOS	O B-餐廳需求::地點 O O O O O O O 找餐廳
+BOS 中山區 好吃 的 EOS	O B-餐廳需求::地點 B-餐廳需求::評價 O 找餐廳
+BOS 中山區 有 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O 找餐廳
+BOS 中山國中站 EOS	O B-餐廳需求::地點 找餐廳
+BOS 中午 吃 什麼 EOS	O O O O 找餐廳
+BOS 中午 有 什麼 推薦 好吃 的 EOS	O O O O B-人氣 B-餐廳需求::評價 O 找餐廳
+BOS 中正紀念堂 附近 有 什麼 好吃 的 美式餐廳 嗎 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 中正紀念堂 附近 有 什麼 好吃 的 嗎 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O O 找餐廳
+BOS 中正紀念堂 附近 有 好吃 的 中式餐廳 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 中正區 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 仁愛路 上 的 美式餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 仁寶 EOS	O B-餐廳需求::地點 找餐廳
+BOS 仁寶 附近 有 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O O 找餐廳
+BOS 仁寶 附近 的 小吃 EOS	O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 今天 中午 有 什麼 好吃 的 可以 推薦 EOS	O O O O O B-餐廳需求::評價 O O B-人氣 找餐廳
+BOS 今天 中午 有 什麼 推薦 的 餐廳 嗎 EOS	O O O O O B-人氣 O O O 找餐廳
+BOS 今天 天氣 好 嗎 EOS	O O O O O 問天氣
+BOS 今天 有 什麼 好吃 的 EOS	O O O O B-餐廳需求::評價 O 找餐廳
+BOS 今天 有 推薦 的 餐廳 嗎 EOS	O O O B-人氣 O O O 找餐廳
+BOS 今天 晚上 吃 韓式料理 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 內湖 EOS	O B-餐廳需求::地點 找餐廳
+BOS 內湖 中秋節 吃 什麼 EOS	O B-餐廳需求::地點 B-節日 O O 找餐廳
+BOS 內湖 內湖 EOS	O B-餐廳需求::地點 B-餐廳需求::地點 找餐廳
+BOS 內湖區 好吃 的 餐廳 EOS	O B-餐廳需求::地點 B-餐廳需求::評價 O O 找餐廳
+BOS 內湖 日式料理 店 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 O 找餐廳
+BOS 內湖 水餃 店 EOS	O B-餐廳需求::地點 B-餐廳需求::餐點 O 找餐廳
+BOS 內湖 牛肉麵 EOS	O B-餐廳需求::地點 B-餐廳需求::餐點 找餐廳
+BOS 內湖 好吃 的 EOS	O B-餐廳需求::地點 B-餐廳需求::評價 O 找餐廳
+BOS 內湖 有 什麼 好吃 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 找餐廳
+BOS 內湖 有 什麼 好吃 的 下午 茶餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O O 找餐廳
+BOS 內湖 有 什麼 好吃 的 日式料理 店 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 內湖 有 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O 找餐廳
+BOS 內湖 有 什麼 餐廳 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 內湖 有 永和豆漿 嗎 ? EOS	O B-餐廳需求::地點 O O O O 找餐廳
+BOS 內湖 有 沒有 樂雅樂 餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::店名 O 找餐廳
+BOS 內湖 有 沒有 樂雅樂 EOS	O B-餐廳需求::地點 O O B-餐廳需求::店名 找餐廳
+BOS 內湖 有 便宜 的 餐廳 嗎 EOS	O B-餐廳需求::地點 O B-價位 O O O 找餐廳
+BOS 內湖 有 推薦 的 法式料理 嗎 EOS	O B-餐廳需求::地點 O B-人氣 O B-餐廳需求::類型 O 找餐廳
+BOS 內湖 狎鷗亭 EOS	O B-餐廳需求::地點 B-餐廳需求::店名 找餐廳
+BOS 內湖 的 日本料理 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 內湖 的 美式餐廳 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 內湖 的 漢堡 店 EOS	O B-餐廳需求::地點 O B-餐廳需求::餐點 O 找餐廳
+BOS 內湖 附近 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O 找餐廳
+BOS 內湖 附近 有 什麼 好吃 的 ？ EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O O 找餐廳
+BOS 內湖 附近 有 好吃 的 日本料理 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 內湖 附近 有 泰之雲 嗎 EOS	O B-餐廳需求::地點 O O O O 找餐廳
+BOS 內湖 附近 有 樂雅樂 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::店名 O 找餐廳
+BOS 內湖 附近 的 牛肉麵 店 EOS	O B-餐廳需求::地點 O O B-餐廳需求::餐點 O 找餐廳
+BOS 內湖 附近 的 拉麵店 ？ EOS	O B-餐廳需求::地點 O O O O 找餐廳
+BOS 內湖 附近 的 餐廳 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 內湖 洪師父牛肉麵 評價 好 嗎 EOS	O B-餐廳需求::地點 B-餐廳需求::店名 B-餐廳需求::評價 O O 找餐廳
+BOS 內湖區 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 內湖區 有 什麼 好吃 的 晚餐 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O B-餐廳需求::類型 找餐廳
+BOS 內湖區 有 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O 找餐廳
+BOS 內湖區 有 沒有 好吃 的 柞醬麵 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O 找餐廳
+BOS 內湖 街有 沒有 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O 找餐廳
+BOS 內湖 陽光街 的 餐廳 EOS	O B-餐廳需求::地點 B-餐廳需求::地點 O O 找餐廳
+BOS 內湖 瑞光路 的 餐廳 EOS	O B-餐廳需求::地點 B-餐廳需求::地點 O O 找餐廳
+BOS 內湖路 那裡 有 賣 豆漿 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::餐點 找餐廳
+BOS 內湖 德朗 法式料理 的 資訊 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 O O 找餐廳
+BOS 內湖 樂雅樂 餐廳 EOS	O B-餐廳需求::地點 B-餐廳需求::店名 O 找餐廳
+BOS 內湖 餐廳 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 內湖 還有 其他 好吃 的 餐廳 嗎 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O O O 找餐廳
+BOS 內湖 韓式料理 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 找餐廳
+BOS 公館 的 小吃 有 哪些 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 O O 找餐廳
+BOS 公館 附近 有 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O O 找餐廳
+BOS 公館 美式餐廳 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 找餐廳
+BOS 公館 美食 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 公館捷運站 日本料理 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 找餐廳
+BOS 太遠 了 有 沒有 大安森林公園站 附近 的 EOS	O O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 文德路 上 的 火鍋店 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 日本料理 EOS	O B-餐廳需求::類型 找餐廳
+BOS 日本 料理店 EOS	O O O 找餐廳
+BOS 日式料理 EOS	O B-餐廳需求::類型 找餐廳
+BOS 日式料理 有 什麼 好吃 的 EOS	O B-餐廳需求::類型 O O B-餐廳需求::評價 O 找餐廳
+BOS 日式料理 餐廳 EOS	O B-餐廳需求::類型 O 找餐廳
+BOS 日式餐廳 EOS	O B-餐廳需求::類型 找餐廳
+BOS 水立方 輕食 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 火車站 附近 有 什麼 好吃 的 EOS	O O O O O B-餐廳需求::評價 O 找餐廳
+BOS 火車站 附近 有 什麼 好吃 的 餐廳 EOS	O O O O O B-餐廳需求::評價 O O 找餐廳
+BOS 父親節 可以 去 哪裡 吃飯 EOS	O B-節日 O O O O 找餐廳
+BOS 父親節 有 什麼 推薦 的 餐廳 EOS	O B-節日 O O B-人氣 O O 找餐廳
+BOS 父親節 有 什麼 推薦 的 餐廳 嗎 EOS	O B-節日 O O B-人氣 O O O 找餐廳
+BOS 父親節 有 什麼 餐廳 可以 介紹給 我 嗎 EOS	O B-節日 O O O O O O O 找餐廳
+BOS 父親節 要 去 哪 吃飯 EOS	O B-節日 O O O O 找餐廳
+BOS 父親節 該 吃 什麼 EOS	O B-節日 O O O 找餐廳
+BOS 牛肉麵 好了 EOS	O B-餐廳需求::餐點 O 找餐廳
+BOS 牛肉麵 餐廳 推薦 EOS	O B-餐廳需求::餐點 O B-人氣 找餐廳
+BOS 牛排 EOS	O B-餐廳需求::餐點 找餐廳
+BOS 牛排 店 EOS	O B-餐廳需求::餐點 O 找餐廳
+BOS 王品 在 哪裡 EOS	O B-餐廳需求::店名 O O 找餐廳
+BOS 北投 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 北投 附近 的 餐廳 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 北投區 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 北投區 美食 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 可以 介紹 日式餐廳 給我 嗎 EOS	O O O B-餐廳需求::類型 O O 找餐廳
+BOS 可以 推薦 中式料理 餐廳 給我 嗎 EOS	O O B-人氣 B-餐廳需求::類型 O O O 找餐廳
+BOS 可以 推薦 其他 日式餐廳 給我 嗎 EOS	O O B-人氣 O B-餐廳需求::類型 O O 找餐廳
+BOS 可以 幫 我 找 內湖區 的 日式料理 店 嗎 EOS	O O O O O B-餐廳需求::地點 O B-餐廳需求::類型 O O 找餐廳
+BOS 可以 幫 我 找 日式料理 店 嗎 EOS	O O O O O B-餐廳需求::類型 O O 找餐廳
+BOS 可以 幫 我 找 其他 的 日式料理 店 嗎 EOS	O O O O O O O B-餐廳需求::類型 O O 找餐廳
+BOS 可以 幫 我 找 其他 的 西式餐廳 嗎 EOS	O O O O O O O B-餐廳需求::類型 O 找餐廳
+BOS 可以 幫 我 找 信義區 的 餐廳 嗎 EOS	O O O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 可是 我 想 吃 拉麵 EOS	O O O O O B-餐廳需求::餐點 找餐廳
+BOS 台大 附近 的 餐廳 EOS	O O O O O 找餐廳
+BOS 台北 EOS	O O 找餐廳
+BOS 台北火車站 附近 有 什麼 好吃 的 餐廳 EOS	O B-餐廳需求::地點 O O O B-餐廳需求::評價 O O 找餐廳
+BOS 台北市 的 川菜 有 哪些 EOS	O O O B-餐廳需求::類型 O O 找餐廳
+BOS 台北市南京西路 泰國料理 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 台北 有 什麼 好吃 的 EOS	O O O O B-餐廳需求::評價 O 找餐廳
+BOS 台北車站 附近 的 日式料理 EOS	O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 台北車站 附近 的 義大利麵 EOS	O B-餐廳需求::地點 O O B-餐廳需求::餐點 找餐廳
+BOS 台北車站 附近 簡餐 店 EOS	O B-餐廳需求::地點 O B-餐廳需求::類型 O 找餐廳
+BOS 台北 的 川菜 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 台北 餐廳 EOS	O O O 找餐廳
+BOS 台灣大學 附近 的 燒烤 店 EOS	O O O O B-餐廳需求::餐點 O 找餐廳
+BOS 台灣大學 美式餐廳 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 台灣牛 在 那裡 EOS	O O O O 找餐廳
+BOS 四四南村 有 什麼 好吃 的 EOS	O O O O B-餐廳需求::評價 O 找餐廳
+BOS 市政府 附近 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 市政府捷運站 EOS	O B-餐廳需求::地點 找餐廳
+BOS 母親節 士林 附近 有 什麼 西式 的 餐廳 EOS	O B-節日 B-餐廳需求::地點 O O O B-餐廳需求::類型 O O 找餐廳
+BOS 母親節 什麼 好吃 的 餐廳 EOS	O B-節日 O B-餐廳需求::評價 O O 找餐廳
+BOS 母親節 有 什麼 東西 好吃 嗎 EOS	O B-節日 O O O B-餐廳需求::評價 O 找餐廳
+BOS 母親節 有 什麼 推薦 的 嗎 EOS	O B-節日 O O B-人氣 O O 找餐廳
+BOS 母親節 有 什麼 推薦 的 餐廳 EOS	O B-節日 O O B-人氣 O O 找餐廳
+BOS 永春站 EOS	O B-餐廳需求::地點 找餐廳
+BOS 永康街 EOS	O B-餐廳需求::地點 找餐廳
+BOS 永康街 名店 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 瓦城泰國料理 EOS	O B-餐廳需求::店名 找餐廳
+BOS 白癡 EOS	O B-對罵 負面問候句
+BOS 吃 拉麵 EOS	O O B-餐廳需求::餐點 找餐廳
+BOS 好吃 美式餐廳 EOS	O B-餐廳需求::評價 B-餐廳需求::類型 找餐廳
+BOS 好吃 港式飲茶 EOS	O B-餐廳需求::評價 B-餐廳需求::類型 找餐廳
+BOS 好吃 漢堡 EOS	O B-餐廳需求::評價 B-餐廳需求::餐點 找餐廳
+BOS 好 想 吃 千層蛋糕 EOS	O O O O O 找餐廳
+BOS 安安 你好 EOS	O B-打招呼 B-打招呼 正面問候句
+BOS 安和路二段 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 早上好 EOS	O B-打招呼 正面問候句
+BOS 早安 你好 EOS	O B-打招呼 B-打招呼 正面問候句
+BOS 早餐 店 EOS	O B-餐廳需求::類型 O 找餐廳
+BOS 有 下午茶 嗎 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 有 大安區 的 嗎 EOS	O O B-餐廳需求::地點 O O 找餐廳
+BOS 有 大直 附近 的 嗎 ? EOS	O O O O O O O 找餐廳
+BOS 有 小籠包 嗎 EOS	O O B-餐廳需求::餐點 O 找餐廳
+BOS 有 什麼 好吃 的 中式料理 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::類型 找餐廳
+BOS 有 什麼 好吃 的 中式料理 嗎 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 有 什麼 好吃 的 中式餐廳 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::類型 找餐廳
+BOS 有 什麼 好吃 的 中式餐廳 嗎 ？ EOS	O O O B-餐廳需求::評價 O B-餐廳需求::類型 O O 找餐廳
+BOS 有 什麼 好吃 的 日本料理 嗎 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::類型 O 找餐廳
+BOS 有 什麼 好吃 的 拉麵 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::餐點 找餐廳
+BOS 有 內湖店 嗎 EOS	O O O O 找餐廳
+BOS 有 日本料理 嗎 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 有 日式料理 嗎 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 有 沒有 內湖 的 日式料理 EOS	O O O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 有 沒有 牛肉麵 EOS	O O O B-餐廳需求::餐點 找餐廳
+BOS 有 沒有 好吃 的 義大利麵餐廳 EOS	O O O B-餐廳需求::評價 O O 找餐廳
+BOS 有 沒有 好吃 的 鰻魚飯 EOS	O O O B-餐廳需求::評價 O B-餐廳需求::餐點 找餐廳
+BOS 有 沒有 更好 的 牛肉麵 可以 吃 EOS	O O O O O B-餐廳需求::餐點 O O 找餐廳
+BOS 有 沒有 其他 家 日式料理 EOS	O O O O O B-餐廳需求::類型 找餐廳
+BOS 有 沒有 美式餐廳 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 有 沒有 停車場 EOS	O O O B-停車 找餐廳
+BOS 有 沒有 清淡 一點 的 拉麵 EOS	O O O O O O B-餐廳需求::餐點 找餐廳
+BOS 有 沒有 麥當勞 EOS	O O O B-餐廳需求::店名 找餐廳
+BOS 有 沒有 漢堡 店 EOS	O O O B-餐廳需求::餐點 O 找餐廳
+BOS 有 沒有 賣 日本料理 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 有 星巴克 嗎 ？ EOS	O O B-餐廳需求::店名 O O 找餐廳
+BOS 有 哪裡 可以 吃 早餐 EOS	O O O O O B-餐廳需求::類型 找餐廳
+BOS 有 泰式料理 嗎 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 有 泰國菜 嗎 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 有 停車位 嗎 EOS	O O B-停車 O 找餐廳
+BOS 有 靠近 大 直接 運站 嗎 ? EOS	O O O O O O O O 找餐廳
+BOS 有 燒餅 可以 吃 嗎 EOS	O O B-餐廳需求::餐點 O O O 找餐廳
+BOS 有 饅頭 吃 嗎 EOS	O O B-餐廳需求::餐點 O O 找餐廳
+BOS 江南街 日式餐廳 停車場 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 B-停車 找餐廳
+BOS 江南街 美式餐廳 父親節 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 B-節日 找餐廳
+BOS 江南街 美式餐廳 停車場 EOS	O B-餐廳需求::地點 B-餐廳需求::類型 B-停車 找餐廳
+BOS 江南 街上 EOS	O O O 找餐廳
+BOS 江南 街上 的 美式餐廳 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 江南街 有 什麼 好吃 的 EOS	O B-餐廳需求::地點 O O B-餐廳需求::評價 O 找餐廳
+BOS 江南街 美食 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 江南街 麥當勞 EOS	O B-餐廳需求::地點 B-餐廳需求::店名 找餐廳
+BOS 行天宮站 附近 EOS	O B-餐廳需求::地點 O 找餐廳
+BOS 西式餐廳 EOS	O B-餐廳需求::類型 找餐廳
+BOS 西門町 附近 的 餐廳 EOS	O B-餐廳需求::地點 O O O 找餐廳
+BOS 西湖站 的 餐廳 EOS	O B-餐廳需求::地點 O O 找餐廳
+BOS 你 不 知道 瑞湖街 上 的 小高玉 嗎 EOS	O O O O B-餐廳需求::地點 O O B-餐廳需求::店名 O 找餐廳
+BOS 你好 啊 EOS	O B-打招呼 O 正面問候句
+BOS 你 好笨 EOS	O O B-對罵 負面問候句
+BOS 你 知道 小高玉 市 迴轉 壽司 日本 料理店 嗎 EOS	O O O B-餐廳需求::店名 O O B-餐廳需求::餐點 O O O 找餐廳
+BOS 你 很 白癡 EOS	O O O B-對罵 負面問候句
+BOS 你 很爛 EOS	O O B-對罵 負面問候句
+BOS 你 這 白癡 EOS	O O O B-對罵 負面問候句
+BOS 你 認得 瑞光路 上 的 餐廳 嗎 EOS	O O O B-餐廳需求::地點 O O O O 找餐廳
+BOS 你 幫 我 介紹 中山區 的 餐廳 嗎 EOS	O O O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 我 不要 中式 的 EOS	O O O B-餐廳需求::類型 O 找餐廳
+BOS 我 不要 找 泰式料理 我要 找 日式料理 EOS	O O O O B-餐廳需求::類型 O O B-餐廳需求::類型 找餐廳
+BOS 我 在 大安捷運站 ， 肚子 好餓 EOS	O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 我 在 長春路 幫 我 找 餐廳 EOS	O O O B-餐廳需求::地點 O O O O 找餐廳
+BOS 我 看到 吉野家 ， 好吃 嗎 EOS	O O O B-餐廳需求::店名 O B-餐廳需求::評價 O 找餐廳
+BOS 我要 叉燒包 EOS	O O B-餐廳需求::餐點 找餐廳
+BOS 我要 中式餐廳 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 我要 日式 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 我要 日式料理 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 我要 包子店 EOS	O O O 找餐廳
+BOS 我要 去 永康街 吃 小吃 EOS	O O O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 我要 吃 川菜 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 我要 吃 中式餐廳 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 我要 吃 中餐 EOS	O O O O 找餐廳
+BOS 我要 吃 牛肉麵 EOS	O O O B-餐廳需求::餐點 找餐廳
+BOS 我要 吃 牛排 EOS	O O O B-餐廳需求::餐點 找餐廳
+BOS 我要 吃 美式餐廳 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 我要 吃 韓式料理 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 我要 西式 的 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 我要 找 士林 的 餐廳 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我要 找 士林 的 餐廳 吃到飽 父親節 用 的 EOS	O O O B-餐廳需求::地點 O O B-吃到飽 B-節日 O O 找餐廳
+BOS 我要 找 內湖 ， 不要 士林 EOS	O O O B-餐廳需求::地點 O O B-餐廳需求::地點 找餐廳
+BOS 我要 找 內湖 的 餐廳 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我要 找 內湖 的 餐廳 要 有 牛排 EOS	O O O B-餐廳需求::地點 O O O O B-餐廳需求::餐點 找餐廳
+BOS 我要 找 內湖 附近 的 餐廳 EOS	O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 我要 找 內湖 餐廳 EOS	O O O B-餐廳需求::地點 O 找餐廳
+BOS 我要 找 日式料理 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 我要 找 北投 的 餐廳 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我要 找 南港 的 餐廳 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我要 找 美式料理 EOS	O O O B-餐廳需求::類型 找餐廳
+BOS 我要 便宜 的 EOS	O O B-價位 O 找餐廳
+BOS 我要 美式餐廳 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 我 要問 士林夜市 的 小吃 EOS	O O O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 我 要問 北投 的 餐廳 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我要 滷肉飯 EOS	O O B-餐廳需求::餐點 找餐廳
+BOS 我要 漢堡 EOS	O O B-餐廳需求::餐點 找餐廳
+BOS 我要 燒餅 EOS	O O B-餐廳需求::餐點 找餐廳
+BOS 我問 你 知道 瑞光路 上 的 餐廳 嗎 EOS	O O O O B-餐廳需求::地點 O O O O 找餐廳
+BOS 我 想 去 台北東區 吃飯 EOS	O O O O O O 找餐廳
+BOS 我 想 吃 下午茶 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 土司 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 大安區 的 料理 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我 想 吃 中式餐廳 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 內湖 附近 的 早餐 EOS	O O O O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 日式料理 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 牛排 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 吐司 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 羊肉麵 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 西式餐廳 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 其他 家 的 牛肉麵 EOS	O O O O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 拉麵 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 美式餐廳 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 教父牛排 EOS	O O O O B-餐廳需求::店名 找餐廳
+BOS 我 想 吃 陽光街 美食 EOS	O O O O B-餐廳需求::地點 O 找餐廳
+BOS 我 想 吃 瑞湖街 上 的 日本料理 EOS	O O O O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 我 想 吃 義大利麵 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 漢堡 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 燒餅 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 吃 薯條 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 找 大安森林公園站 附近 的 日式料理 EOS	O O O O B-餐廳需求::地點 O O B-餐廳需求::類型 找餐廳
+BOS 我 想 找 大直 的 餐廳 EOS	O O O O O O O 找餐廳
+BOS 我 想 找 內湖 好吃 的 EOS	O O O O B-餐廳需求::地點 B-餐廳需求::評價 O 找餐廳
+BOS 我 想 找 內湖 的 日本餐廳 EOS	O O O O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 我 想 找 內湖 的 日式料理 EOS	O O O O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 我 想 找 內湖 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我 想 找 日式料理 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想 找 有 賣 牛排 的 餐廳 EOS	O O O O O O B-餐廳需求::餐點 O O 找餐廳
+BOS 我 想 找 忠孝復興站 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我 想 找 瑞光路 附近 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O O 找餐廳
+BOS 我 想要 吃 中式餐廳 EOS	O O O O B-餐廳需求::類型 找餐廳
+BOS 我 想要 吃 雞肉飯 EOS	O O O O B-餐廳需求::餐點 找餐廳
+BOS 我 想 要問 內湖 的 餐廳 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 我 說過 要 吃 燒餅 EOS	O O O O O B-餐廳需求::餐點 找餐廳
+BOS 找 內湖 的 美式餐廳 EOS	O O B-餐廳需求::地點 O B-餐廳需求::類型 找餐廳
+BOS 找找 美式餐廳 EOS	O O B-餐廳需求::類型 找餐廳
+BOS 更正 一下 我要 找 吃到飽 餐廳 EOS	O O O O O B-吃到飽 O 找餐廳
+BOS 豆漿 EOS	O B-餐廳需求::餐點 找餐廳
+BOS 那 中式 的 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 那 中式餐廳 有 那些 EOS	O O B-餐廳需求::類型 O O 找餐廳
+BOS 那 可以 吃 蛋餅 嗎 EOS	O O O O B-餐廳需求::餐點 O 找餐廳
+BOS 那 永康街 有 好吃 的 嗎 EOS	O O B-餐廳需求::地點 O B-餐廳需求::評價 O O 找餐廳
+BOS 那 永康街 附近 的 下午茶 有 嗎 EOS	O O B-餐廳需求::地點 O O B-餐廳需求::類型 O O 找餐廳
+BOS 那有 牛肉麵 嗎 EOS	O O B-餐廳需求::餐點 O 找餐廳
+BOS 那有 沒有 信義區 的 EOS	O O O B-餐廳需求::地點 O 找餐廳
+BOS 那有 賣 小籠包 嗎 EOS	O O O B-餐廳需求::餐點 O 找餐廳
+BOS 那有 燒餅 吧 EOS	O O B-餐廳需求::餐點 O 找餐廳
+BOS 那你 知道 公館 美食 嗎 EOS	O O O B-餐廳需求::地點 O O 找餐廳
+BOS 那 我 去 東門站 吃 好了 EOS	O O O O B-餐廳需求::地點 O O 找餐廳
+BOS 那 美式餐廳 呢 EOS	O O B-餐廳需求::類型 O 找餐廳
+BOS 百八漁場 評價 EOS	O B-餐廳需求::店名 B-餐廳需求::評價 找餐廳

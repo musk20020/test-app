@@ -1,0 +1,20 @@
+BOS 內湖 好吃 的 餐廳 EOS	O B-地點 O O O 找餐廳
+BOS 今天 天氣 如何 EOS	O B-時間 B-天氣 O 問天氣
+BOS 你好 EOS	O B-問候 問候
+BOS 台北車站 附近 有 什麼 好吃 的 EOS	O B-地點 O O O O O 找餐廳
+BOS 內湖 好吃 的 餐廳 EOS	O B-地點 O O O 找餐廳
+BOS 今天 天氣 如何 EOS	O B-時間 B-天氣 O 問天氣
+BOS 你好 EOS	O B-問候 問候
+BOS 台北車站 附近 有 什麼 好吃 的 EOS	O B-地點 O O O O O 找餐廳
+BOS 內湖 好吃 的 餐廳 EOS	O B-地點 O O O 找餐廳
+BOS 今天 天氣 如何 EOS	O B-時間 B-天氣 O 問天氣
+BOS 你好 EOS	O B-問候 問候
+BOS 台北車站 附近 有 什麼 好吃 的 EOS	O B-地點 O O O O O 找餐廳
+BOS 你好 阿 EOS	O B-問候 O 問候
+BOS 明天 天氣 怎樣 EOS	O B-時間 B-天氣 O 問天氣
+BOS 幫我 找 大直 附近 的 餐廳 EOS	O O O B-地點 O O O 找餐廳
+BOS 市民大道 有 什麼 好吃 的 餐廳 EOS	O B-地點 O O O O O 找餐廳
+BOS 你好 阿 EOS	O B-問候 O 問候
+BOS 明天 天氣 怎樣 EOS	O B-時間 B-天氣 O 問天氣
+BOS 幫我 找 大直 附近 的 餐廳 EOS	O O O B-地點 O O O 找餐廳
+BOS 市民大道 有 什麼 好吃 的 餐廳 EOS	O B-地點 O O O O O 找餐廳

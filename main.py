@@ -26,7 +26,7 @@ slot_size = 16
 intent_size = 14
 epoch_num = 1
 
-model_path = './model/ijia/'
+model_path = '/var/www/demoapp/test-app/model/ijia/'
 
 
 def transform(inputs_strs):
@@ -73,7 +73,7 @@ def build_model():
         error_message = 'get saver error'
 
     try:
-        train_data = open( "dataset/ijia_dataset_musk.iob", "r" ).readlines()
+        train_data = open( "/var/www/demoapp/test-app/dataset/ijia_dataset_musk.iob", "r" ).readlines()
         train_data_ed = data_pipeline( train_data )
 
         global word2index, index2word, slot2index, index2slot, intent2index, index2intent
@@ -87,8 +87,8 @@ def build_model():
 @app.route('/LoadDict', methods=['POST'])
 def load_dict():
     try:
-        jieba_dict = "dict.txt"
-        corpus_dict = "corpus_jieba.txt"
+        jieba_dict = "/var/www/demoapp/test-app/dict.txt"
+        corpus_dict = "/var/www/demoapp/test-app/corpus_jieba.txt"
         jieba.set_dictionary( jieba_dict )
         jieba.load_userdict( corpus_dict )
         error_message = "load dict seccess"

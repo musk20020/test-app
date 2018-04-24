@@ -10,6 +10,9 @@ import jieba
 from flask import Flask
 from flask import request
 import json
+import requests
+
+#a = requests.post("http://52.224.222.139:80")
 
 app = Flask(__name__)
 
@@ -122,4 +125,4 @@ def HelloWorld():
 
 if __name__ == '__main__':
     # jieba dict
-    app.run()
+    app.run(host='0.0.0.0')

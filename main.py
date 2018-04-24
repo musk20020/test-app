@@ -54,25 +54,35 @@ def get_model():
 @app.route('/BuildModel', methods=['POST'])
 def build_model():
 
-    global model_run, sess
-    model_run = get_model()
-    sess = tf.Session()
-    sess.run( tf.global_variables_initializer() )
+    error_message = 'build model success'
+    try:
+        global model_run, sess
+        model_run = get_model()
+        sess = tf.Session()
+        sess.run( tf.global_variables_initializer() )
+    except:
+        error_message = 'get model error'
 
-    # JerryB +++ 建立 saver 物件
-    saver = tf.train.Saver( tf.global_variables() )
-    ckpt = tf.train.get_checkpoint_state( model_path )
-    saver.restore( sess, ckpt.model_checkpoint_path )
-    # JerryB ---
+    try:
+        # JerryB +++ 建立 saver 物件
+        saver = tf.train.Saver( tf.global_variables() )
+        ckpt = tf.train.get_checkpoint_state( model_path )
+        saver.restore( sess, ckpt.model_checkpoint_path )
+        # JerryB ---
+    except:
+        error_message = 'get saver error'
 
-    train_data = open( "dataset/ijia_dataset_musk.iob", "r" ).readlines()
-    train_data_ed = data_pipeline( train_data )
+    try:
+        train_data = open( "dataset/ijia_dataset_musk.iob", "r" ).readlines()
+        train_data_ed = data_pipeline( train_data )
 
-    global word2index, index2word, slot2index, index2slot, intent2index, index2intent
-    word2index, index2word, slot2index, index2slot, intent2index, index2intent = \
-        get_info_from_training_data( train_data_ed )
+        global word2index, index2word, slot2index, index2slot, intent2index, index2intent
+        word2index, index2word, slot2index, index2slot, intent2index, index2intent = \
+            get_info_from_training_data( train_data_ed )
+    except:
+        error_message = 'get dataset error'
 
-    return "Build Model Sucess"
+    return error_message
 
 @app.route('/LoadDict', methods=['POST'])
 def load_dict():

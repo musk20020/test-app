@@ -87,8 +87,8 @@ def build_model():
 @app.route('/LoadDict', methods=['POST'])
 def load_dict():
     try:
-        jieba_dict = "./jieba-zh_TW/dict.txt"
-        corpus_dict = "./jieba-zh_TW/corpus_jieba.txt"
+        jieba_dict = "dict.txt"
+        corpus_dict = "corpus_jieba.txt"
         jieba.set_dictionary( jieba_dict )
         jieba.load_userdict( corpus_dict )
         error_message = "load dict seccess"

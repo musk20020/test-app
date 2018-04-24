@@ -116,6 +116,10 @@ def get_intent_entity():
 
     return return_form
 
+@app.route('/')
+def HelloWorld():
+    return "Hello world !!!"
+
 if __name__ == '__main__':
     # jieba dict
     app.run()
